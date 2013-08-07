@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title" />
+    
+    <Button
+        android:id="@+id/main_start_search" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_search"/>
+    
+    <Button
+        android:id="@+id/main_stop_search" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_search"/>
+    
+    <Button
+        android:id="@+id/main_record" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_record"/>
+    
+    <ListView
+        android:id="@+id/main_device_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    
+
+</LinearLayout>
